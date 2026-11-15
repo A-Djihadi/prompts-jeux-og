@@ -1,4 +1,4 @@
-# Prompt — Jeu d'action-aventure style Flash (vectoriel, sans sprites)
+# Prompt : jeu d'action-aventure style Flash (vectoriel, sans sprites)
 
 > Copie tout ce qui est sous la ligne et colle-le dans ton agent IA.
 > Remplace les `[...]` si tu veux personnaliser, sinon laisse les valeurs par défaut.
@@ -19,10 +19,10 @@ aucune technique qui exploite le joueur (voir « Garde-fous »).
 
 ## Paramètres (à personnaliser)
 
-- **Nom du jeu :** [NOM DU JEU — par défaut : choisis-en un]
-- **Vue :** [vue de dessus | vue de côté — par défaut : vue de dessus]
-- **Thème / univers :** [THÈME — par défaut : choisis un thème original]
-- **Style visuel :** [formes géométriques + contours épais + couleurs vives — par défaut]
+- **Nom du jeu :** [NOM DU JEU, par défaut : choisis-en un]
+- **Vue :** [vue de dessus | vue de côté, par défaut : vue de dessus]
+- **Thème / univers :** [THÈME, par défaut : choisis un thème original]
+- **Style visuel :** [formes géométriques + contours épais + couleurs vives, par défaut]
 - **Héros et arme principale :** [par défaut : choisis, ex. épée + dash]
 - **Langue des textes du jeu :** [français]
 
@@ -32,7 +32,7 @@ aucune technique qui exploite le joueur (voir « Garde-fous »).
   aucun moteur, aucun CDN, aucune dépendance réseau. Le jeu fonctionne hors ligne.
 - Fichiers : `index.html`, `style.css`, et le JS en modules ES (`src/*.js`).
 - Lancement : en ouvrant `index.html` via un petit serveur statique
-  (ex. `npx serve .` ou `python -m http.server`) — documente la commande.
+  (ex. `npx serve .` ou `python -m http.server`). Documente la commande.
 - **Zéro sprite, zéro image** : tout est dessiné avec l'API Canvas (`path`, `arc`,
   `lineTo`, `bezierCurveTo`, dégradés, `globalAlpha`, transformations). Chaque
   entité a une fonction `draw(ctx)` qui la dessine en formes vectorielles. Les

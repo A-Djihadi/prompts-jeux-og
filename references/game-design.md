@@ -49,7 +49,7 @@ Les tags `[P1]`…`[P14]` sont les mêmes que dans les prompts.
 - **Dans les prompts :** liste d'effets à implémenter (flash d'impact, tweening,
   squash & stretch, particules, sons synthétisés), tous en interrupteurs.
 
-## [P3] Les « petits trucs » des jeux d'action (screen shake, hit stop, etc.)
+## [P3] Les « petits trucs » des jeux d'action (screen shake, hit stop)
 
 - **Source :** Jan Willem Nijman (Vlambeer), *The Art of Screenshake*, INDIGO Classes 2013.
   - Vidéo : <https://www.youtube.com/watch?v=SkgkIXZ_13Y>
@@ -59,7 +59,7 @@ Les tags `[P1]`…`[P14]` sont les mêmes que dans les prompts.
   et plus rapides, muzzle flash, recul, screen shake, pause du jeu de quelques
   millisecondes à l'impact (hit stop), travail sur la caméra.
 - **Dans les prompts :** screen shake, hit stop, projectiles lisibles, muzzle flash,
-  recul — surtout dans le prompt action-aventure (combat).
+  recul. Surtout dans le prompt action-aventure (combat).
 
 ## [P4] Pardonner les erreurs de timing (input forgiveness)
 
@@ -224,6 +224,6 @@ Les tags `[P1]`…`[P14]` sont les mêmes que dans les prompts.
 - **Récompenses quotidiennes / streaks / notifications** : relevées comme patterns
   temporels douteux (P12, *playing by appointment*). Exclues.
 - **Loot boxes / monnaie premium** : patterns monétaires (P12). Exclus.
-- **« Near miss », pertes déguisées en gains, etc.** : techniques issues des machines
+- **« Near miss » et pertes déguisées en gains** : techniques issues des machines
   à sous ; on n'a pas trouvé de source de game design qui les recommande pour un
   jeu, et elles relèvent de la manipulation. Exclues.
